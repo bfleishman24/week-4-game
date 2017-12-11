@@ -15,7 +15,11 @@ var loses =0;
 $(`#ranNum`).html(randomNumber);
 $(`#wins`).html(wins);
 $(`#loses`).html(loses);
-$(`#score`).html(totalScore)
+$(`#score`).html(totalScore);
+$(`.tenor-gif-embed`).hide();
+
+
+
 
 
 console.log(randomNumber);
@@ -110,7 +114,6 @@ if(totalScore === randomNumber){
 // the game can be won by matching the total score to the random number
 
 // the game can be lost by exceeding the random number in total score
-// function gameEnd(){       
 
 
 
