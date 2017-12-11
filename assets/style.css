@@ -1,0 +1,19 @@
+body {
+    background-color: lightcoral;
+}
+/* //container style */
+.container {
+    background-color: greenyellow;
+}
+/* 
+column styling */
+
+.col-lg-12 {
+    width: 300px;
+}
+
+img {
+    width:100px;
+}
+
+.col-lg-3
