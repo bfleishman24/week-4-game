@@ -3,7 +3,6 @@
 // total score adding up all the crstal presses, wins and losses
 // when the game starts, we will need a random number generated and each crstal will have a random value assigned to it
 
-
 var crystal1 = Math.floor(Math.random() * ((12-1)+1)+1);
 var crystal2 = Math.floor(Math.random() * ((12-1)+1)+1);
 var crystal3 = Math.floor(Math.random() * ((12-1)+1)+1);
@@ -16,7 +15,7 @@ $(`#ranNum`).html(randomNumber);
 $(`#wins`).html(wins);
 $(`#loses`).html(loses);
 $(`#score`).html(totalScore);
-$(`.tenor-gif-embed`).hide();
+
 
 
 
@@ -38,7 +37,7 @@ function win(){
 }
 
 function lose() {
-    alert("You lose Sucka!");    
+    alert("You Eediot!!");    
     loses++;
     $(`#loses`).html(loses);
     resetGame();
@@ -114,6 +113,8 @@ if(totalScore === randomNumber){
 // the game can be won by matching the total score to the random number
 
 // the game can be lost by exceeding the random number in total score
+
+// learn how to hide the gif
 
 
 
